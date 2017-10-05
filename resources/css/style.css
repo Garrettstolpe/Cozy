@@ -47,7 +47,7 @@ a {
   width: 1200px;
   align-items: center;
   display: flex;
-
+  margin: 0 auto;
 
 }
 
@@ -62,4 +62,44 @@ a {
   display: block;
   padding: 20px 210px;
   text-align: center;
+}
+
+
+.month {
+  color: seashell;
+  text-align: center;
+}
+
+#tea img {
+  height: 200px;
+  width: 300px;
+}
+
+#tea {
+color: seashell;
+text-align: center;
+display: flex;
+justify-content: center;
+margin: 0 auto;
+
+}
+
+.fall {
+  display: block;
+}
+
+.spiced {
+  display: block;
+}
+
+.donuts {
+  display: block;
+}
+
+.myrtle {
+  display: block;
+}
+
+.bizarre {
+  display: block;
 }
