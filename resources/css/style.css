@@ -5,6 +5,7 @@ body {
   justify-content: center;
   align-items: center;
   align-content: center;
+  font-family: Helvetica
 }
 
 .header {
@@ -81,25 +82,76 @@ text-align: center;
 display: flex;
 justify-content: center;
 margin: 0 auto;
-
+width: 1000px;
+flex-wrap: wrap;
 }
 
 .fall {
   display: block;
+  margin: 30px 15px
 }
 
 .spiced {
   display: block;
+  margin: 30px 15px
 }
 
 .donuts {
   display: block;
+  margin: 30px 15px
 }
 
 .myrtle {
   display: block;
+  margin: 30px 15px
 }
 
 .bizarre {
   display: block;
+  margin: 30px 15px
+}
+
+.lower {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+  height: 500px;
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  color: seashell;
+  flex-wrap: wrap;
+}
+
+.locations {
+  text-align: center;
+  display: block;
+
+
+}
+
+.downtown {
+  display: block;
+  background-color: black;
+  margin: 15px 20px;
+  width: 300px;
+  opacity: 1;
+}
+
+.eastside {
+  display: inline-block;
+  background-color: black;
+  margin: 15px 20px;
+  width: 300px;
+  opacity: 1;
+}
+
+.oakdale {
+  display: block;
+  background-color: black;
+  margin: 15px 20px;
+  width: 300px;
+  opacity: 1;
+
 }
